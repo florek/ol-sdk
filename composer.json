@@ -1,0 +1,24 @@
+{
+    "name": "divante-ltd/open-loyalty-php-sdk",
+    "type": "library",
+    "description": "OpenLoyalty SDK",
+    "autoload": {
+        "psr-0": {
+            "OpenLoyalty\\SDK": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "OpenLoyaltySDK\\Tests\\": "tests/" }
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle-services": "^1.1",
+        "psr/log": "^1.0",
+        "beberlei/assert": "^2.9",
+        "symfony/http-foundation": "^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    }
+}
