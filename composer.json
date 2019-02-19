@@ -1,7 +1,7 @@
 {
-    "name": "divante-ltd/open-loyalty-php-sdk",
+    "name": "florek/open-loyalty-php-sdk",
     "type": "library",
-    "description": "OpenLoyalty SDK",
+    "description": "Florek OL SDK",
     "autoload": {
         "psr-0": {
             "OpenLoyalty\\SDK": "src/"
