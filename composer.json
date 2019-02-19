@@ -4,6 +4,7 @@
     "description": "Florek OL SDK",
     "license": "MIT",
     "version": "3.1.7",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-0": {
             "OpenLoyalty\\SDK": "src/"
